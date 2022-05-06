@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	// we import lib/pq here to be able to disable PostgreSQL support using a build tag
-	_ "github.com/lib/pq"
+	// we import jackc/pgx here to be able to disable PostgreSQL support using a build tag
+	_ "github.com/jackc/pgx/v4"
 
 	"github.com/drakkan/sftpgo/v2/logger"
 	"github.com/drakkan/sftpgo/v2/version"
