@@ -8,7 +8,7 @@ import (
 	"path"
 	"time"
 
-	ftpserver "github.com/fclairamb/ftpserverlib"
+	ftpserver "github.com/siepkes/ftpserverlib"
 	"github.com/spf13/afero"
 
 	"github.com/drakkan/sftpgo/v2/common"

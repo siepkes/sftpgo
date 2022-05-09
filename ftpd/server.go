@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	ftpserver "github.com/fclairamb/ftpserverlib"
+	ftpserver "github.com/siepkes/ftpserverlib"
 
 	"github.com/drakkan/sftpgo/v2/common"
 	"github.com/drakkan/sftpgo/v2/dataprovider"

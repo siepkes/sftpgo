@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/eikenb/pipeat"
-	ftpserver "github.com/fclairamb/ftpserverlib"
 	"github.com/pires/go-proxyproto"
 	"github.com/sftpgo/sdk"
+	ftpserver "github.com/siepkes/ftpserverlib"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

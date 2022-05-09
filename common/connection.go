@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	ftpserver "github.com/fclairamb/ftpserverlib"
 	"github.com/pkg/sftp"
 	"github.com/sftpgo/sdk"
+	ftpserver "github.com/siepkes/ftpserverlib"
 
 	"github.com/drakkan/sftpgo/v2/dataprovider"
 	"github.com/drakkan/sftpgo/v2/logger"

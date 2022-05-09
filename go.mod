@@ -10,7 +10,6 @@ require (
 	github.com/aws/aws-sdk-go v1.44.4
 	github.com/cockroachdb/cockroach-go/v2 v2.2.8
 	github.com/eikenb/pipeat v0.0.0-20210730190139-06b3e6902001
-	github.com/fclairamb/ftpserverlib v0.18.0
 	github.com/fclairamb/go-log v0.3.0
 	github.com/go-chi/chi/v5 v5.0.8-0.20220103230436-7dbe9a0bd10f
 	github.com/go-chi/jwtauth/v5 v5.0.2
@@ -41,6 +40,7 @@ require (
 	github.com/rs/zerolog v1.26.2-0.20220312163309-e9344a8c507b
 	github.com/sftpgo/sdk v0.1.0
 	github.com/shirou/gopsutil/v3 v3.22.3
+	github.com/siepkes/ftpserverlib v0.18.1-0.20220509075227-4905aad604d8
 	github.com/spf13/afero v1.8.2
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/viper v1.11.0
@@ -54,7 +54,7 @@ require (
 	gocloud.dev v0.25.0
 	golang.org/x/crypto v0.0.0-20220427172511-eb4f295cb31f
 	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4
-	golang.org/x/sys v0.0.0-20220429233432-b5fbb4746d32
+	golang.org/x/sys v0.0.0-20220503163025-988cb79eb6c6
 	golang.org/x/time v0.0.0-20220411224347-583f2d630306
 	google.golang.org/api v0.77.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
