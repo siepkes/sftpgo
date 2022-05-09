@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	// we import lib/pq here to be able to disable PostgreSQL support using a build tag
-	_ "github.com/lib/pq"
+	// we import jackc/pgx/v4 here to be able to disable PostgreSQL support using a build tag
+	_ "github.com/jackc/pgx/v4/stdlib"
 
 	"github.com/drakkan/sftpgo/v2/logger"
 	"github.com/drakkan/sftpgo/v2/version"
@@ -126,7 +126,7 @@ func init() {
 
 func initializePGSQLProvider() error {
 	var err error
-	dbHandle, err := sql.Open("postgres", getPGSQLConnectionString(false))
+	dbHandle, err := sql.Open("pgx", getPGSQLConnectionString(false))
 	if err == nil {
 		providerLog(logger.LevelDebug, "postgres database handle created, connection string: %#v, pool size: %v",
 			getPGSQLConnectionString(true), config.PoolSize)
